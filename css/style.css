@@ -52,7 +52,7 @@
     transition: 0.5s;
  }
 
- .navbar.top {background-color: transparent;}
+ /* .navbar.top {background-color: transparent;} */
 
 
  .navbar a {
@@ -62,7 +62,7 @@
  }
 
  .navbar a:hover {
-  border-bottom: #28a745 2px solid ;
+  border-bottom: #ec0524 2px solid ;
  }
 
  .navbar ul {
@@ -128,7 +128,7 @@
 }
 
 .icons i{
-    background-color: #28a745;
+    background-color: #ec0524;
     color: #fff;
    
    
