@@ -73,7 +73,7 @@
 
 }
 
-.flex-columns .column .column1
+
 .flex-columns .column .column2 {
     height: 100%;
 }
@@ -91,6 +91,7 @@
     justify-content: center;
     padding: 30px;
     height: 100%;
+    margin-bottom: 0;
 }
 
 .flex-columns h2 {
@@ -168,4 +169,13 @@ padding-top: 20px;
 .callback-form .btn {
     padding: 12px 0;
     margin-top: 20px;
+}
+
+.awsimg {
+    justify-content: center;
+    
+    max-width: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
 }

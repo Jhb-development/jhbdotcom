@@ -29,6 +29,7 @@
  p {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: large;
  }
   
  img {
@@ -46,10 +47,16 @@
     opacity: 0.8;
     width: 100%;
     height: 70px;
-    position: fixed;
+    position: relative;
     top: 0px;
     padding: 0 30px;
     transition: 0.5s;
+    
+ }
+
+ nav ul li ul {
+    display: block;
+    position: absolute;
  }
 
  /* .navbar.top {background-color: transparent;} */
@@ -145,6 +152,8 @@
 #team img {
     border-radius: 50%;
 }
+
+#about {padding-bottom: 0;}
 
 /* footer */
 .footer {
