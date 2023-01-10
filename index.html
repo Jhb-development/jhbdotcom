@@ -15,20 +15,32 @@
                 <span class="text-primary"><i class= "fas fa-book-open"></i> JHB</span> Development
             </h1>
             <nav>
-                <ul>
-                    <li><a href="#home">homepage</a> </li>
-                    <li><a href="#">Javascript Projects</a> 
-                     <ul class="dropDownLi">
-                         <li><a href="">calculator</a></li>
-                         <li><a href="">Connection Tools</a></li>
-                         <li><a href="">E-commerce store</a></li>
-                         
-                     </ul>
-                    </li>
-                    <li><a href="#cases">Python Projects</a> </li>
-                    <li><a href="#blog">get in touch</a> </li>
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" >Home</a>
                     
-                </ul>
+                    <div class="dropdown">
+                        <button class="dropbtn">Python Projects
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+                    <div class="dropdown">
+                      <button class="dropbtn">Javascript Projects
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </div>
+                    <a href="#about">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                  </div>
             </nav>
 
         </div>
@@ -46,8 +58,9 @@
                 <div>
                     <i class="fas fa-university fa-2x"></i>
                     <div>
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, neque.</p>
+                        <img class="logos" src="images/—Pngtree—database settings glyph black icon_3754812.png" >
+                        <h3>Full Stack Development</h3>
+                        <p>Proven ability to develop functional applications on both the front end and back end</p>
 
 
                     </div>
@@ -55,8 +68,9 @@
                 <div>
                     <i class="fas fa-book-open fa-2x"></i>
                     <div>
+                        <img class="logos" src="/images/kisspng-angle-text-symbol-brand-other-python-5ab0c09b9ea1a7.3286927515215330836498.png" alt="">
                         <h3>Python</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, neque.</p>
+                        <p>Working Knowledge of python enables flexibility in development needs, particularly in regards to databases.</p>
 
 
                     </div>
@@ -64,8 +78,9 @@
                 <div>
                     <i class="fas fa-pencil-alt fa-2x"></i>   
                     <div>
+                        <img class="logos" src="/images/JavaScript-logo.png" alt="">
                         <h3>Javascript</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, neque.</p>
+                        <p>quick deployment of webapps with Javascript, the most widespread language on the internet.</p>
 
 
                     </div>
@@ -133,7 +148,7 @@
             </header>
             <div class="flex-items">
              <div>
-                <img src="/image_resources/team/person1.jpg">
+                <img class="logosLrg" src="/images/ProfilePicture.png">
                 <h4>Joel Braid</h4>
                 <p>A+, N+, AWS developer associate, LLB Law 2023</p>
              </div>
@@ -141,18 +156,11 @@
             </div>
 
         </section>
-        <section id="contact" class="contact flex-columns">
-            <div class="row">
-                <div class="column">
-                    <div class="column1">
-                        <img src="/image_resources/home/contact.jpg" alt="">
-
-                    </div>
-
-                </div>
+       <!-- <section id="contact" class="contact flex-columns">
+            
                 <div class="column">   
                     <div class="column2  bg-light">
-                        <h2>request callback</h2>
+                        <h2 style="margin-left:25% ;">request callback</h2>
                         <form action="" class="callback-form">
                             <div class="form-control">
                                 <label for="name"></label>
@@ -178,7 +186,7 @@
             </div>
 
         </section>
-
+    -->
         
     </main>
 
